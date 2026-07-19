@@ -319,8 +319,8 @@ const I18N = {
     "faq.q6": "How do payments work?",
     "faq.a6": "Typically a deposit to start and the balance on completion, depending on the project scope.",
 
-    "contact.title": "Contact",
-    "contact.subtitle": "Ready to build something premium? Send a message or start a WhatsApp chat.",
+    "contact.title": "Let's Build Something Great Together",
+    "contact.subtitle": "I'm open to full-time opportunities, freelance projects, and collaborations. If you're looking for someone who enjoys solving real business problems with technology, I'd love to hear from you.",
     "contact.nameLabel": "Name",
     "contact.namePlaceholder": "Your name",
     "contact.phoneLabel": "Phone (WhatsApp)",
@@ -673,7 +673,7 @@ const I18N = {
     "faq.q6": "Comment fonctionnent les paiements ?",
     "faq.a6": "Généralement un acompte au démarrage puis le solde à la livraison, selon le périmètre du projet.",
 
-    "contact.title": "Contact",
+    "contact.title": "Construisons quelque chose d'ensemble",
     "contact.subtitle": "Prêt à construire quelque chose de premium ? Envoyez un message ou démarrez un chat WhatsApp.",
     "contact.nameLabel": "Nom",
     "contact.namePlaceholder": "Votre nom",

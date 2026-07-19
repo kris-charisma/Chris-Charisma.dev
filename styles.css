@@ -544,7 +544,7 @@ button.btn.btn-ghost[data-email]:hover {
   margin: 0;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 10px 20px;
+  gap: 8px 12px;
 }
 
 .bring-list li {
