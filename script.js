@@ -1,4 +1,4 @@
-const PHONE_E164 = "250788800813";
+﻿const PHONE_E164 = "250788800813";
 const CONTACT_EMAIL = "kris.karisma@proton.me";
 const LANG_KEY = "cc_lang";
 
@@ -18,10 +18,10 @@ const I18N = {
     "nav.contact": "Contact",
     "lang.toFrenchAria": "Switch language to French",
     "lang.toEnglishAria": "Switch language to English",
-    "hero.pill": "Software & Website Designer and Developer",
-    "hero.title": "Crafting Elegant Websites <span class=\"amp\">&</span> Powerful Digital Experiences.",
+    "hero.pill": "Full-Stack Software Developer",
+    "hero.title": "Modern Web Applications <span class=\"amp\">&</span> Enterprise Software.",
     "hero.subtitle":
-      "I’m <strong>Chris Charisma</strong> I've got 4+ years delivering clean code, premium UI, and modern web solutions for businesses and creators.",
+      "I build modern web applications, enterprise software, and digital solutions that help businesses operate smarter.",
     "hero.ctaWork": "View My Work",
     "hero.ctaContact": "Contact Me",
     "hero.ctaBook": "Book a Call",
@@ -31,20 +31,23 @@ const I18N = {
     "hero.metaSpecialty": "Specialty",
     "hero.metaAvailability": "Availability",
     "hero.metaAvailabilityValue": "Open to projects",
-    "hero.typingPhrases": ["Luxury Web UI", "Modern Websites", "Clean Code", "Premium Animations"],
+    "hero.typingPhrases": ["Enterprise Software", "Full-Stack Development", "Scalable Systems", "Clean Architecture"],
 
-    "about.title": "About Chris Charisma",
+    "summary.title": "Building software that helps businesses grow.",
+    "summary.body": "I develop secure, scalable, and user-focused applications&mdash;from company websites to enterprise management systems&mdash;with an emphasis on clean architecture, excellent user experience, and long-term maintainability.",
+
+    "about.title": "About Toussaint",
     "about.body":
-      "I am Chris Charisma, a passionate software and website designer &amp; developer focused on creating modern, elegant, and high-performing digital experiences.<br /><br />With over 4 years of professional experience, I specialize in building websites that combine clean design, smooth user experience, and solid technical performance.<br /><br />My approach blends design thinking and development expertise to create solutions that help businesses establish a strong digital presence.<br /><br />I have successfully developed websites for wellness brands, hospitality businesses, service providers, and educational platforms.",
-    "about.card1Title": "Clean code, modern stack",
+      "I'm a Full-Stack Software Developer based in Kigali, Rwanda, specializing in building scalable web applications, business management systems, and modern digital experiences.<br /><br />Over the past four years, I've designed and developed production-ready solutions including ERP systems, inventory management systems, restaurant management platforms, and custom business websites that improve operational efficiency and user experience.<br /><br />I enjoy turning complex business requirements into clean, intuitive, and high-performing software using Laravel, Django, PHP, JavaScript, MySQL, Bootstrap, and modern frontend technologies.<br /><br />Beyond writing code, I focus on software architecture, performance optimization, responsive UI/UX, API integration, database design, and creating products that deliver measurable business value.<br /><br />I'm always excited to collaborate with ambitious teams, learn new technologies, and build software that makes a real impact.",
+    "about.card1Title": "Clean architecture, modern stack",
     "about.card1Body":
-      "I focus on maintainable structure, performance, and accessibility, using proven web standards and a design-first approach.",
+      "I focus on software architecture, performance optimization, and maintainable code using proven web standards and modern frameworks.",
     "about.card2Title": "Premium design language",
     "about.card2Body":
       "Dark luxury palette, glassmorphism, soft gradients, and micro-interactions. Crafted to impress international clients.",
-    "about.card3Title": "Business-ready delivery",
+    "about.card3Title": "Business impact delivery",
     "about.card3Body":
-      "Landing pages, full websites, redesigns, and integrations. Built to ship smoothly and scale with your goals.",
+      "ERP systems, management dashboards, business websites, and custom software. Built to improve efficiency and scale with your goals.",
 
     "resume.title": "Resume",
     "resume.subtitle": "Professional experience and the work style you can expect on every project.",
@@ -281,13 +284,16 @@ const I18N = {
     "pricing.p3Item3": "Performance and UX refinement",
 
     "testimonials.title": "Testimonials",
-    "testimonials.subtitle": "Add real client feedback here to boost trust and conversions.",
+    "testimonials.subtitle": "Trusted by businesses and creators across Rwanda and beyond.",
     "testimonials.t1":
       "“Chris delivered a premium website for our school and made the programs easy to understand. The layout is clean, fast on mobile, and our inquiries increased because everything is now clear and professional.”",
     "testimonials.t2":
       "“We wanted a modern look that feels high-end and trustworthy. Chris handled the design and structure perfectly, and the site now represents our spa the way we imagined.”",
     "testimonials.t3":
       "“Chris built us a clean, modern site with clear calls-to-action. It loads quickly, looks great on every device, and our guests can find what they need in seconds.”",
+    "testimonials.t1Author": "Zimulinda — Vera School of Massage Therapist & Nails Care",
+    "testimonials.t2Author": "Peter — Izi Spa Kigali",
+    "testimonials.t3Author": "Lydia — D'african BnB",
 
     "faq.title": "FAQ",
     "faq.subtitle": "Quick answers about timelines, workflow, and what you need to get started.",
@@ -321,7 +327,13 @@ const I18N = {
     "contact.quickCta": "WhatsApp Quick Chat",
     "contact.basedIn": "Based in",
     "contact.focus": "Focus",
-    "contact.focusValue": "Premium websites & UI",
+    "contact.focusValue": "Full-stack web applications",
+    "contact.phone": "+250 788 800 813",
+    "contact.phoneHref": "tel:+250788800813",
+    "contact.email": "kris.karisma@proton.me",
+    "contact.emailHref": "mailto:kris.karisma@proton.me",
+    "contact.location": "Kigali, Rwanda",
+    "contact.waQuickHref": "https://wa.me/250788800813",
 
     "fabTop.aria": "Scroll to top",
     "footer.copy": "©",
@@ -351,10 +363,10 @@ const I18N = {
     "nav.contact": "Contact",
     "lang.toFrenchAria": "Passer le site en français",
     "lang.toEnglishAria": "Passer le site en anglais",
-    "hero.pill": "Designer & Développeur de logiciels et sites web",
-    "hero.title": "Créer des sites élégants <span class=\"amp\">&</span> des expériences digitales puissantes.",
+    "hero.pill": "Développeur Full-Stack",
+    "hero.title": "Applications web modernes <span class=\"amp\">&</span> logiciels enterprise.",
     "hero.subtitle":
-      "Je suis <strong>Chris Charisma</strong>, avec 4+ ans d’expérience à livrer du code propre, une UI premium, et des solutions web modernes pour les entreprises et créateurs.",
+      "Je construis des applications web modernes, des logiciels enterprise et des solutions digitales qui aident les entreprises à opérer plus intelligemment.",
     "hero.ctaWork": "Voir mes projets",
     "hero.ctaContact": "Me contacter",
     "hero.ctaBook": "Réserver un appel",
@@ -365,20 +377,23 @@ const I18N = {
     "hero.metaSpecialty": "Spécialité",
     "hero.metaAvailability": "Disponibilité",
     "hero.metaAvailabilityValue": "Disponible pour des projets",
-    "hero.typingPhrases": ["UI Web de luxe", "Sites modernes", "Code propre", "Animations premium"],
+    "hero.typingPhrases": ["Logiciels Enterprise", "Développement Full-Stack", "Systèmes scalables", "Architecture propre"],
 
-    "about.title": "À propos de Chris Charisma",
+    "summary.title": "Construire des logiciels qui font grandir les entreprises.",
+    "summary.body": "Je développe des applications sécurisées, scalables et centrées sur l’utilisateur &mdash; des sites d’entreprise aux systèmes de gestion enterprise &mdash; en mettant l’accent sur une architecture propre, une excellente expérience utilisateur et une maintenabilité à long terme.",
+
+    "about.title": "À propos de Toussaint",
     "about.body":
-      "Je suis Chris Charisma, designer &amp; développeur web passionné, axé sur la création d’expériences digitales modernes, élégantes et performantes.<br /><br />Avec plus de 4 ans d’expérience professionnelle, je crée des sites qui combinent design propre, expérience fluide et performance technique solide.<br /><br />Mon approche mélange design thinking et expertise de développement pour aider les marques à construire une présence digitale forte.<br /><br />J’ai déjà développé des sites pour des marques bien-être, l’hôtellerie, des prestataires de services et des plateformes éducatives.",
-    "about.card1Title": "Code propre, stack moderne",
+      "Je suis Développeur Full-Stack basé à Kigali, Rwanda, spécialisé dans la création d’applications web scalables, systèmes de gestion d’entreprise et expériences digitales modernes.<br /><br />Au cours des quatre dernières années, j’ai conçu et développé des solutions prêtes pour la production, notamment des systèmes ERP, des systèmes de gestion d’inventaire, des plateformes de gestion de restaurant et des sites web d’entreprise qui améliorent l’efficacité opérationnelle et l’expérience utilisateur.<br /><br />J’aime transformer des exigences techniques complexes en logiciels propres, intuitifs et performants en utilisant Laravel, Django, PHP, JavaScript, MySQL, Bootstrap et des technologies frontend modernes.<br /><br />Au-delà du code, je me concentre sur l’architecture logicielle, l’optimisation des performances, le UI/UX responsive, l’intégration d’API, la conception de bases de données et la création de produits qui génèrent une valeur mesurable.<br /><br />Je suis toujours enthousiaste à l’idée de collaborer avec des équipes ambitieuses, d’apprendre de nouvelles technologies et de construire des logiciels qui ont un impact réel.",
+    "about.card1Title": "Architecture propre, stack moderne",
     "about.card1Body":
       "Je privilégie une structure maintenable, la performance et l’accessibilité, avec des standards web éprouvés et une approche design-first.",
     "about.card2Title": "Langage visuel premium",
     "about.card2Body":
       "Palette sombre luxueuse, glassmorphism, dégradés doux et micro-interactions. Pour impressionner des clients internationaux.",
-    "about.card3Title": "Livraison orientée business",
+    "about.card3Title": "Impact business",
     "about.card3Body":
-      "Landing pages, sites complets, redesigns et intégrations. Conçus pour être livrés proprement et évoluer avec vos objectifs.",
+      "Systèmes ERP, tableaux de bord, sites d’entreprise et logiciels sur mesure. Conçus pour améliorer l’efficacité et évoluer avec vos objectifs.",
 
     "resume.title": "Parcours",
     "resume.subtitle": "Expérience professionnelle et style de travail que vous pouvez attendre à chaque projet.",
@@ -613,13 +628,17 @@ const I18N = {
     "pricing.p3Item3": "Optimisation performance & UX",
 
     "testimonials.title": "Témoignages",
-    "testimonials.subtitle": "Ajoutez des retours clients pour renforcer la confiance et les conversions.",
+    "testimonials.subtitle": "La confiance des entreprises et créateurs à travers le Rwanda et au-delà.",
     "testimonials.t1":
       "« Chris a livré un site premium pour notre école et a rendu nos programmes faciles à comprendre. Le layout est propre, rapide sur mobile, et nos demandes ont augmenté car tout est clair et professionnel. »",
     "testimonials.t2":
       "« Nous voulions un look moderne, haut de gamme et rassurant. Chris a parfaitement géré le design et la structure, et le site représente notre spa comme nous l’imaginions. »",
     "testimonials.t3":
       "« Chris a créé un site propre et moderne avec des appels à l’action clairs. Il charge vite, s’affiche parfaitement sur tous les appareils, et nos clients trouvent l’essentiel en quelques secondes. »",
+
+    "testimonials.t1Author": "Zimulinda \u2014 Vera School of Massage Therapist & Nails Care",
+    "testimonials.t2Author": "Peter \u2014 Izi Spa Kigali",
+    "testimonials.t3Author": "Lydia \u2014 D'african BnB",
 
     "faq.title": "FAQ",
     "faq.subtitle": "Réponses rapides sur les délais, le workflow et ce qu’il faut pour démarrer.",
@@ -653,7 +672,13 @@ const I18N = {
     "contact.quickCta": "Chat WhatsApp",
     "contact.basedIn": "Basé à",
     "contact.focus": "Focus",
-    "contact.focusValue": "Sites premium & UI",
+    "contact.focusValue": "Applications web full-stack",
+    "contact.phone": "+250 788 800 813",
+    "contact.phoneHref": "tel:+250788800813",
+    "contact.email": "kris.karisma@proton.me",
+    "contact.emailHref": "mailto:kris.karisma@proton.me",
+    "contact.location": "Kigali, Rwanda",
+    "contact.waQuickHref": "https://wa.me/250788800813",
 
     "fabTop.aria": "Remonter en haut",
     "footer.copy": "©",
@@ -1160,3 +1185,6 @@ setupContactForm();
 setupAuditCta();
 setupParticles();
 setupScrollTopFab();
+
+
+
