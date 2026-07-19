@@ -491,10 +491,10 @@ button.btn.btn-ghost[data-email]:hover {
   padding: 14px 14px;
   transform: translateY(0);
   transition: transform 220ms var(--ease), border-color 220ms var(--ease), box-shadow 220ms var(--ease);
-  min-height: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  overflow: hidden;
 }
 
 .meta-card:hover {
@@ -514,6 +514,8 @@ button.btn.btn-ghost[data-email]:hover {
   letter-spacing: -0.2px;
   overflow: hidden;
   white-space: nowrap;
+  height: 1.2em;
+  line-height: 1.2;
 }
 
 .section {

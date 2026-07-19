@@ -21,7 +21,7 @@ const I18N = {
     "hero.title": "Modern Web Applications <span class=\"amp\">&</span> Enterprise Software.",
     "hero.subtitle":
       "I build modern web applications, enterprise software, and digital solutions that help businesses operate smarter.",
-    "hero.ctaWork": "View My Work",
+    "hero.ctaWork": "GitHub",
     "hero.ctaContact": "Contact Me",
     "hero.ctaBook": "Book a Call",
     "hero.bookHref": "https://wa.me/250788800813?text=Hi%20Chris%2C%20I%27d%20like%20to%20book%20a%20call.",
@@ -365,7 +365,7 @@ const I18N = {
     "hero.title": "Applications web modernes <span class=\"amp\">&</span> logiciels enterprise.",
     "hero.subtitle":
       "Je construis des applications web modernes, des logiciels enterprise et des solutions digitales qui aident les entreprises à opérer plus intelligemment.",
-    "hero.ctaWork": "Voir mes projets",
+    "hero.ctaWork": "GitHub",
     "hero.ctaContact": "Me contacter",
     "hero.ctaBook": "Réserver un appel",
     "hero.bookHref":
