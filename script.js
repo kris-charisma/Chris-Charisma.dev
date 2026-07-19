@@ -29,7 +29,7 @@ const I18N = {
     "hero.metaExperienceValue": "4+ years",
     "hero.metaSpecialty": "Specialty",
     "hero.metaAvailability": "Availability",
-    "hero.metaAvailabilityValue": "Open to projects",
+    "hero.metaAvailabilityValue": "Full-Time & Remote Opportunities",
     "hero.typingPhrases": ["Enterprise Software", "Full-Stack Development", "Scalable Systems", "Clean Architecture"],
 
     "summary.title": "Building software that helps businesses grow.",
@@ -385,7 +385,7 @@ const I18N = {
     "hero.metaExperienceValue": "4+ ans",
     "hero.metaSpecialty": "Spécialité",
     "hero.metaAvailability": "Disponibilité",
-    "hero.metaAvailabilityValue": "Disponible pour des projets",
+    "hero.metaAvailabilityValue": "Opportunit\u00e9s \u00e0 temps plein et \u00e0 distance",
     "hero.typingPhrases": ["Logiciels Enterprise", "Développement Full-Stack", "Systèmes scalables", "Architecture propre"],
 
     "summary.title": "Construire des logiciels qui font grandir les entreprises.",
