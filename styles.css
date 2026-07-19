@@ -15,7 +15,6 @@
   --text: #e5e7eb;
   --muted: rgba(229, 231, 235, 0.72);
   --border: rgba(229, 231, 235, 0.12);
-  --glass: rgba(17, 24, 39, 0.55);
   --shadow: 0 18px 60px rgba(0, 0, 0, 0.45);
   --radius: 18px;
   --radius-sm: 14px;
@@ -574,37 +573,6 @@ button.btn.btn-ghost[data-email]:hover {
   align-items: stretch;
 }
 
-.about-gallery {
-  margin-top: 14px;
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 12px;
-}
-
-.photo-tile {
-  border-radius: 18px;
-  border: 1px solid rgba(229, 231, 235, 0.12);
-  background: rgba(17, 24, 39, 0.35);
-  overflow: hidden;
-  box-shadow: 0 18px 70px rgba(0, 0, 0, 0.28);
-  transform: translateY(0);
-  transition: transform 240ms var(--ease), border-color 240ms var(--ease), box-shadow 240ms var(--ease);
-}
-
-.photo-tile:hover {
-  transform: translateY(-4px);
-  border-color: rgba(241, 180, 47, 0.22);
-  box-shadow: 0 22px 90px rgba(0, 0, 0, 0.38);
-}
-
-.photo-tile img {
-  width: 100%;
-  height: auto;
-  display: block;
-  filter: saturate(1.04) contrast(1.02);
-}
-
-
 .glass-card {
   position: relative;
   border-radius: var(--radius);
@@ -980,18 +948,6 @@ button.btn.btn-ghost[data-email]:hover {
   border-color: rgba(241, 180, 47, 0.18);
 }
 
-.card-icon {
-  width: fit-content;
-  padding: 6px 10px;
-  border-radius: 999px;
-  border: 1px solid rgba(229, 231, 235, 0.12);
-  color: rgba(229, 231, 235, 0.9);
-  background: rgba(255, 255, 255, 0.04);
-  font-weight: 700;
-  font-family: "Space Grotesk", Inter, system-ui, sans-serif;
-  letter-spacing: -0.1px;
-}
-
 .card-title {
   margin-top: 12px;
   font-weight: 700;
@@ -1047,20 +1003,6 @@ button.btn.btn-ghost[data-email]:hover {
   transform: scale(1);
   transition: transform 320ms var(--ease), filter 320ms var(--ease);
   overflow: hidden;
-}
-
-.project-preview--label {
-  display: grid;
-  place-items: center;
-  padding: 14px;
-  text-align: center;
-}
-
-.project-preview-label {
-  color: rgba(229, 231, 235, 0.92);
-  font-weight: 700;
-  font-family: "Space Grotesk", Inter, system-ui, sans-serif;
-  letter-spacing: -0.2px;
 }
 
 .project-image {
@@ -1174,43 +1116,6 @@ button.btn.btn-ghost[data-email]:hover {
 .faq-body {
   margin-top: 10px;
   color: rgba(229, 231, 235, 0.78);
-}
-
-.resume-grid {
-  display: grid;
-  grid-template-columns: 1.25fr 0.75fr;
-  gap: 14px;
-  align-items: start;
-}
-
-.resume-row {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 12px;
-  flex-wrap: wrap;
-}
-
-.resume-role {
-  font-family: "Space Grotesk", Inter, system-ui, sans-serif;
-  font-weight: 800;
-  letter-spacing: -0.25px;
-  color: rgba(229, 231, 235, 0.92);
-}
-
-.resume-time {
-  font-size: 13px;
-  color: rgba(229, 231, 235, 0.7);
-}
-
-.resume-org {
-  margin-top: 4px;
-  font-size: 13px;
-  color: rgba(229, 231, 235, 0.7);
-}
-
-.resume-list {
-  margin-top: 10px;
 }
 
 .contact-line {
@@ -1332,22 +1237,6 @@ textarea {
   align-items: center;
   gap: 10px;
   color: rgba(229, 231, 235, 0.6);
-}
-
-.mini-badge {
-  width: 34px;
-  height: 26px;
-  border-radius: 999px;
-  display: grid;
-  place-items: center;
-  border: 1px solid rgba(229, 231, 235, 0.14);
-  background: rgba(255, 255, 255, 0.04);
-  color: rgba(229, 231, 235, 0.92);
-  font-family: "Space Grotesk", Inter, system-ui, sans-serif;
-  font-weight: 800;
-  font-size: 11px;
-  letter-spacing: -0.2px;
-  flex: 0 0 auto;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -1511,16 +1400,8 @@ textarea {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .resume-grid {
-    grid-template-columns: 1fr;
-  }
-
   .skill-split {
     grid-template-columns: 1fr;
-  }
-
-  .about-gallery {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .contact-grid {
@@ -1591,10 +1472,6 @@ textarea {
     grid-template-columns: 1fr;
   }
 
-  .about-gallery {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
   .contact-form {
     grid-template-columns: 1fr;
   }
@@ -1639,10 +1516,6 @@ textarea {
   }
 
   .meta-card:hover {
-    transform: none;
-  }
-
-  .photo-tile:hover {
     transform: none;
   }
 
