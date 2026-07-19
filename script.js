@@ -34,7 +34,7 @@ const I18N = {
     "hero.typingPhrases": ["Enterprise Software", "Full-Stack Development", "Scalable Systems", "Clean Architecture"],
 
     "summary.title": "Building software that helps businesses grow.",
-    "summary.body": "I develop secure, scalable, and user-focused applications&mdash;from company websites to enterprise management systems&mdash;with an emphasis on clean architecture, excellent user experience, and long-term maintainability.",
+    "summary.body": "I develop secure, scalable, and user-focused applications, from company websites to enterprise management systems, with an emphasis on clean architecture, excellent user experience, and long-term maintainability.",
 
     "about.title": "About Toussaint",
     "about.body":
@@ -380,7 +380,7 @@ const I18N = {
     "hero.typingPhrases": ["Logiciels Enterprise", "Développement Full-Stack", "Systèmes scalables", "Architecture propre"],
 
     "summary.title": "Construire des logiciels qui font grandir les entreprises.",
-    "summary.body": "Je développe des applications sécurisées, scalables et centrées sur l’utilisateur &mdash; des sites d’entreprise aux systèmes de gestion enterprise &mdash; en mettant l’accent sur une architecture propre, une excellente expérience utilisateur et une maintenabilité à long terme.",
+    "summary.body": "Je développe des applications sécurisées, scalables et centrées sur l’utilisateur, des sites d’entreprise aux systèmes de gestion enterprise, en mettant l’accent sur une architecture propre, une excellente expérience utilisateur et une maintenabilité à long terme.",
 
     "about.title": "À propos de Toussaint",
     "about.body":
