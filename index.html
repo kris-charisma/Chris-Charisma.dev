@@ -1,0 +1,1464 @@
+<!doctype html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Chris Charisma - Software & Website Designer and Developer. Luxury, modern web experiences built with clean code and premium design."
+    />
+    <title>Chris Charisma | Software & Website Designer and Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" type="image/png" href="./Images/logo.png" />
+    <link rel="apple-touch-icon" href="./Images/logo.png" />
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+
+    <header class="site-header">
+      <nav class="nav">
+        <a class="brand" href="#top" aria-label="Chris Charisma home" data-i18n-aria="nav.homeAria">
+          <img
+            class="brand-logo"
+            src="./Images/logo.png"
+            alt=""
+            width="128"
+            height="64"
+            decoding="async"
+            loading="eager"
+          />
+          <span class="brand-name" aria-hidden="true">Chris Charisma</span>
+        </a>
+        <div class="nav-right">
+          <div class="nav-links">
+            <a href="#about" data-i18n="nav.about">About</a>
+            <a href="#skills" data-i18n="nav.skills">Skills</a>
+            <a href="#projects" data-i18n="nav.work">Work</a>
+            <a href="#services" data-i18n="nav.services">Services</a>
+            <a href="#contact" data-i18n="nav.contact">Contact</a>
+          </div>
+          <button class="lang-toggle" type="button" data-lang-toggle aria-label="Switch language">FR</button>
+          <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-i18n-aria="nav.openMenuAria">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </button>
+        </div>
+      </nav>
+      <div class="nav-drawer" data-nav-drawer aria-hidden="true">
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#skills" data-i18n="nav.skills">Skills</a>
+        <a href="#projects" data-i18n="nav.work">Work</a>
+        <a href="#services" data-i18n="nav.services">Services</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+        <button class="lang-toggle" type="button" data-lang-toggle aria-label="Switch language">FR</button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="top" class="hero">
+        <div class="hero-bg" aria-hidden="true">
+          <canvas class="hero-particles" data-particles></canvas>
+          <div class="hero-grid"></div>
+          <div class="hero-glow"></div>
+        </div>
+
+        <div class="container hero-content">
+          <div class="hero-layout">
+            <div class="hero-copy">
+              <div class="pill reveal">
+                <span class="dot" aria-hidden="true"></span>
+                <span data-i18n="hero.pill">Software & Website Designer and Developer</span>
+              </div>
+
+              <h1 class="hero-title reveal" data-i18n-html="hero.title">
+                Crafting Elegant Websites <span class="amp">&</span> Powerful Digital Experiences.
+              </h1>
+
+              <p class="hero-subtitle reveal" data-i18n-html="hero.subtitle">
+                I’m <strong>Chris Charisma</strong> I've got 4+ years delivering clean code, premium UI, and modern web
+                solutions for businesses and creators.
+              </p>
+
+              <div class="hero-cta reveal">
+                <a class="btn btn-primary" href="#projects" data-i18n="hero.ctaWork">View My Work</a>
+                <a class="btn btn-ghost" href="#contact" data-i18n="hero.ctaContact">Contact Me</a>
+                <a
+                  class="btn btn-ghost"
+                  href="https://wa.me/250788800813?text=Hi%20Chris%2C%20I%27d%20like%20to%20book%20a%20call."
+                  target="_blank"
+                  rel="noreferrer"
+                  data-i18n="hero.ctaBook"
+                  data-i18n-href="hero.bookHref"
+                >
+                  Book a Call
+                </a>
+              </div>
+
+              <div class="hero-meta reveal">
+                <div class="meta-card">
+                  <div class="meta-kicker" data-i18n="hero.metaExperience">Experience</div>
+                  <div class="meta-value" data-i18n="hero.metaExperienceValue">4+ years</div>
+                </div>
+                <div class="meta-card">
+                  <div class="meta-kicker" data-i18n="hero.metaSpecialty">Specialty</div>
+                  <div class="meta-value" data-typing>Luxury Web UI</div>
+                </div>
+                <div class="meta-card">
+                  <div class="meta-kicker" data-i18n="hero.metaAvailability">Availability</div>
+                  <div class="meta-value" data-i18n="hero.metaAvailabilityValue">Open to projects</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-visual reveal">
+              <div class="portrait-frame portrait-frame--slideshow" data-hero-slideshow>
+                <div class="portrait-slides" aria-label="Chris Charisma slideshow">
+                  <img
+                    class="portrait-img portrait-slide is-active"
+                    src="./Images/chrischarisma2.jpeg"
+                    alt="Chris Charisma portrait"
+                    loading="eager"
+                    decoding="async"
+                  />
+                  <img
+                    class="portrait-img portrait-slide"
+                    src="./Images/chrischarisma1.jpeg"
+                    alt="Chris Charisma photo"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                  <img
+                    class="portrait-img portrait-slide"
+                    src="./Images/chrischarisma3.jpeg"
+                    alt="Chris Charisma photo"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                  <img
+                    class="portrait-img portrait-slide"
+                    src="./Images/chrischarisma4.jpeg"
+                    alt="Chris Charisma photo"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                  <img
+                    class="portrait-img portrait-slide portrait-slide--headroom"
+                    src="./Images/chrischarisma5.jpeg"
+                    alt="Chris Charisma photo"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="portrait-glow" aria-hidden="true"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-head section-head-center reveal">
+            <h2 data-i18n="about.title">About Chris Charisma</h2>
+            <p data-i18n-html="about.body">
+              I am Chris Charisma, a passionate software and website designer &amp; developer focused on creating modern,
+              elegant, and high-performing digital experiences.<br /><br />
+              With over 4 years of professional experience, I specialize in building websites that combine clean design,
+              smooth user experience, and solid technical performance.<br /><br />
+              My approach blends design thinking and development expertise to create solutions that help businesses
+              establish a strong digital presence.<br /><br />
+              I have successfully developed websites for wellness brands, hospitality businesses, service providers, and
+              educational platforms.
+            </p>
+          </div>
+
+          <div class="about-grid">
+            <div class="glass-card reveal">
+              <div class="card-head">
+                <div class="card-badge" aria-hidden="true">01</div>
+                <h3 data-i18n="about.card1Title">Clean code, modern stack</h3>
+              </div>
+              <p data-i18n="about.card1Body">
+                I focus on maintainable structure, performance, and accessibility, using proven web standards and a
+                design-first approach.
+              </p>
+            </div>
+            <div class="glass-card reveal">
+              <div class="card-head">
+                <div class="card-badge" aria-hidden="true">02</div>
+                <h3 data-i18n="about.card2Title">Premium design language</h3>
+              </div>
+              <p data-i18n="about.card2Body">
+                Dark luxury palette, glassmorphism, soft gradients, and micro-interactions. Crafted to impress
+                international clients.
+              </p>
+            </div>
+            <div class="glass-card reveal">
+              <div class="card-head">
+                <div class="card-badge" aria-hidden="true">03</div>
+                <h3 data-i18n="about.card3Title">Business-ready delivery</h3>
+              </div>
+              <p data-i18n="about.card3Body">
+                Landing pages, full websites, redesigns, and integrations. Built to ship smoothly and scale with your
+                goals.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="process" class="section section-alt">
+        <div class="container">
+          <div class="section-head section-head-center reveal">
+            <h2 data-i18n="process.title">My Process</h2>
+            <p data-i18n="process.subtitle">A clear workflow that keeps projects smooth, fast, and premium.</p>
+          </div>
+
+          <div class="cards-grid">
+            <div class="glass-card reveal">
+              <div class="card-head">
+                <div class="card-badge" aria-hidden="true">01</div>
+                <h3 data-i18n="process.step1Title">Discovery</h3>
+              </div>
+              <p data-i18n="process.step1Body">Goals, target audience, brand direction, and project scope.</p>
+            </div>
+            <div class="glass-card reveal">
+              <div class="card-head">
+                <div class="card-badge card-badge--design" aria-hidden="true">02</div>
+                <h3 data-i18n="process.step2Title">Design</h3>
+              </div>
+              <p data-i18n="process.step2Body">Premium UI, clean layout, and conversion-focused structure.</p>
+            </div>
+            <div class="glass-card reveal">
+              <div class="card-head">
+                <div class="card-badge card-badge--dev" aria-hidden="true">03</div>
+                <h3 data-i18n="process.step3Title">Build</h3>
+              </div>
+              <p data-i18n="process.step3Body">Responsive development with modern standards and smooth interactions.</p>
+            </div>
+            <div class="glass-card reveal">
+              <div class="card-head">
+                <div class="card-badge card-badge--sys" aria-hidden="true">04</div>
+                <h3 data-i18n="process.step4Title">Launch</h3>
+              </div>
+              <p data-i18n="process.step4Body">Deployment, analytics setup, and final checks before going live.</p>
+            </div>
+            <div class="glass-card reveal">
+              <div class="card-head">
+                <div class="card-badge card-badge--chat" aria-hidden="true">05</div>
+                <h3 data-i18n="process.step5Title">Support</h3>
+              </div>
+              <p data-i18n="process.step5Body">Updates, improvements, and ongoing help when you need it.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section section-alt">
+        <div class="container">
+          <div class="section-head section-head-center reveal">
+            <h2 data-i18n="skills.title">Skills</h2>
+            <p data-i18n="skills.subtitle">Tools &amp; capabilities used to build premium web experiences.</p>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-card reveal">
+              <div class="skill-head">
+                <div class="skill-badge" aria-hidden="true">FE</div>
+                <h3 class="skill-title" data-i18n="skills.feTitle">Front-End Development</h3>
+              </div>
+              <p class="skill-desc" data-i18n="skills.feDesc">
+                Building fast, responsive, and interactive user interfaces.
+              </p>
+              <div class="skill-split">
+                <div>
+                  <div class="skill-kicker" data-i18n="skills.coreTech">Core Technologies</div>
+                  <ul class="skill-list">
+                    <li>
+                      <span class="tool-item">
+                        <span class="tool-badge tool-badge--html" aria-hidden="true">HTML</span>
+                        <span>HTML5</span>
+                      </span>
+                    </li>
+                    <li>
+                      <span class="tool-item">
+                        <span class="tool-badge tool-badge--css" aria-hidden="true">CSS</span>
+                        <span>CSS3</span>
+                      </span>
+                    </li>
+                    <li>
+                      <span class="tool-item">
+                        <span class="tool-badge tool-badge--js" aria-hidden="true">JS</span>
+                        <span>JavaScript (ES6+)</span>
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <div class="skill-kicker" data-i18n="skills.capabilities">Capabilities</div>
+                  <ul class="skill-list">
+                    <li data-i18n="skills.feCap1">Responsive and mobile-first design</li>
+                    <li data-i18n="skills.feCap2">Component-based architecture</li>
+                    <li data-i18n="skills.feCap3">Dynamic and interactive interfaces</li>
+                    <li data-i18n="skills.feCap4">Modern UI animations and transitions</li>
+                    <li data-i18n="skills.feCap5">Cross-browser compatibility</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-card reveal">
+              <div class="skill-head">
+                <div class="skill-badge" aria-hidden="true">FW</div>
+                <h3 class="skill-title" data-i18n="skills.fwTitle">Modern Web Frameworks</h3>
+              </div>
+              <p class="skill-desc" data-i18n="skills.fwDesc">
+                Using powerful frameworks to build scalable and high-performance applications.
+              </p>
+              <div class="skill-split">
+                <div>
+                  <div class="skill-kicker" data-i18n="skills.technologies">Technologies</div>
+                  <ul class="skill-list">
+                    <li>
+                      <span class="tool-item">
+                        <span class="tool-badge tool-badge--react" aria-hidden="true">⚛</span>
+                        <span>React.js</span>
+                      </span>
+                    </li>
+                    <li>
+                      <span class="tool-item">
+                        <span class="tool-badge tool-badge--next" aria-hidden="true">N</span>
+                        <span>Next.js</span>
+                      </span>
+                    </li>
+                    <li>
+                      <span class="tool-item">
+                        <span class="tool-badge tool-badge--htmx" aria-hidden="true">HX</span>
+                        <span>htmx</span>
+                      </span>
+                    </li>
+                    <li>
+                      <span class="tool-item">
+                        <span class="tool-badge tool-badge--alpine" aria-hidden="true">Al</span>
+                        <span>Alpine.js</span>
+                      </span>
+                    </li>
+                    <li>
+                      <span class="tool-item">
+                        <span class="tool-badge tool-badge--typescript" aria-hidden="true">TS</span>
+                        <span>TypeScript</span>
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <div class="skill-kicker" data-i18n="skills.capabilities">Capabilities</div>
+                  <ul class="skill-list">
+                    <li data-i18n="skills.fwCap1">Single Page Applications (SPA)</li>
+                    <li data-i18n="skills.fwCap2">Server-Side Rendering (SSR)</li>
+                    <li data-i18n="skills.fwCap3">Static Site Generation (SSG)</li>
+                    <li data-i18n="skills.fwCap4">Reusable component systems</li>
+                    <li data-i18n="skills.fwCap5">High-performance web applications</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-card reveal">
+              <div class="skill-head">
+                <div class="skill-badge" aria-hidden="true">UX</div>
+                <h3 class="skill-title" data-i18n="skills.uxTitle">UI / UX Design</h3>
+              </div>
+              <p class="skill-desc" data-i18n="skills.uxDesc">
+                Focus on creating visually elegant and user-friendly experiences.
+              </p>
+              <div class="skill-split">
+                <div>
+                  <div class="skill-kicker" data-i18n="skills.tools">Tools</div>
+                  <ul class="skill-list">
+                    <li>
+                      <span class="tool-item">
+                        <span class="tool-badge tool-badge--figma" aria-hidden="true">F</span>
+                        <span>Figma</span>
+                      </span>
+                    </li>
+                    <li>
+                      <span class="tool-item">
+                        <span class="tool-badge tool-badge--ps" aria-hidden="true">Ps</span>
+                        <span>Adobe Photoshop</span>
+                      </span>
+                    </li>
+                    <li>
+                      <span class="tool-item">
+                        <span class="tool-badge tool-badge--ai" aria-hidden="true">Ai</span>
+                        <span>Adobe Illustrator</span>
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <div class="skill-kicker" data-i18n="skills.capabilities">Capabilities</div>
+                  <ul class="skill-list">
+                    <li data-i18n="skills.uxCap1">Wireframing and prototyping</li>
+                    <li data-i18n="skills.uxCap2">Visual design systems</li>
+                    <li data-i18n="skills.uxCap3">Typography and layout design</li>
+                    <li data-i18n="skills.uxCap4">User-centered interface design</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-card reveal">
+              <div class="skill-head">
+                <div class="skill-badge" aria-hidden="true">DEV</div>
+                <h3 class="skill-title" data-i18n="skills.devTitle">Website Development</h3>
+              </div>
+              <p class="skill-desc" data-i18n="skills.devDesc">
+                Building scalable and functional websites tailored to business needs.
+              </p>
+              <div class="skill-kicker" data-i18n="skills.capabilities">Capabilities</div>
+              <ul class="skill-list">
+                <li data-i18n="skills.devCap1">Business websites</li>
+                <li data-i18n="skills.devCap2">Booking and service websites</li>
+                <li data-i18n="skills.devCap3">Portfolio and personal brand websites</li>
+                <li data-i18n="skills.devCap4">Landing pages</li>
+                <li data-i18n="skills.devCap5">Custom website redesigns</li>
+              </ul>
+            </div>
+
+            <div class="skill-card reveal">
+              <div class="skill-head">
+                <div class="skill-badge" aria-hidden="true">CMS</div>
+                <h3 class="skill-title" data-i18n="skills.cmsTitle">CMS &amp; Website Builders</h3>
+              </div>
+              <p class="skill-desc" data-i18n="skills.cmsDesc">
+                Platforms used to deliver flexible and easily manageable websites.
+              </p>
+              <div class="skill-split">
+                <div>
+                  <div class="skill-kicker" data-i18n="skills.tools">Tools</div>
+                  <ul class="skill-list">
+                    <li>
+                      <span class="tool-item">
+                        <span class="tool-badge tool-badge--wp" aria-hidden="true">W</span>
+                        <span>WordPress</span>
+                      </span>
+                    </li>
+                    <li>
+                      <span class="tool-item">
+                        <span class="tool-badge tool-badge--wix" aria-hidden="true">Wi</span>
+                        <span>Wix</span>
+                      </span>
+                    </li>
+                    <li>
+                      <span class="tool-item">
+                        <span class="tool-badge tool-badge--cms" aria-hidden="true">C</span>
+                        <span>Custom CMS integration</span>
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <div class="skill-kicker" data-i18n="skills.capabilities">Capabilities</div>
+                  <ul class="skill-list">
+                    <li data-i18n="skills.cmsCap1">Theme customization</li>
+                    <li data-i18n="skills.cmsCap2">Plugin integration</li>
+                    <li data-i18n="skills.cmsCap3">Client-friendly content management</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-card reveal">
+              <div class="skill-head">
+                <div class="skill-badge" aria-hidden="true">DB</div>
+                <h3 class="skill-title" data-i18n="skills.dbTitle">Database &amp; Backend Integration</h3>
+              </div>
+              <p class="skill-desc" data-i18n="skills.dbDesc">
+                Connecting websites with dynamic data and management systems.
+              </p>
+              <div class="skill-split">
+                <div>
+                  <div class="skill-kicker" data-i18n="skills.technologies">Technologies</div>
+                  <ul class="skill-list">
+                    <li>
+                      <span class="tool-item">
+                        <span class="tool-badge tool-badge--firebase" aria-hidden="true">Fb</span>
+                        <span>Firebase</span>
+                      </span>
+                    </li>
+                    <li>
+                      <span class="tool-item">
+                        <span class="tool-badge tool-badge--supabase" aria-hidden="true">Su</span>
+                        <span>Supabase</span>
+                      </span>
+                    </li>
+                    <li>
+                      <span class="tool-item">
+                        <span class="tool-badge tool-badge--pocketbase" aria-hidden="true">Pb</span>
+                        <span>PocketBase</span>
+                      </span>
+                    </li>
+                    <li>
+                      <span class="tool-item">
+                        <span class="tool-badge tool-badge--mongodb" aria-hidden="true">Mo</span>
+                        <span>MongoDB</span>
+                      </span>
+                    </li>
+                    <li>
+                      <span class="tool-item">
+                        <span class="tool-badge tool-badge--mysql" aria-hidden="true">My</span>
+                        <span>MySQL</span>
+                      </span>
+                    </li>
+                    <li>
+                      <span class="tool-item">
+                        <span class="tool-badge tool-badge--postgresql" aria-hidden="true">Pg</span>
+                        <span>PostgreSQL</span>
+                      </span>
+                    </li>
+                    <li>
+                      <span class="tool-item">
+                        <span class="tool-badge tool-badge--sqlite" aria-hidden="true">Sq</span>
+                        <span>SQLite</span>
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <div class="skill-kicker" data-i18n="skills.capabilities">Capabilities</div>
+                  <ul class="skill-list">
+                    <li data-i18n="skills.dbCap1">Database integration</li>
+                    <li data-i18n="skills.dbCap2">Form processing</li>
+                    <li data-i18n="skills.dbCap3">Dynamic content management</li>
+                    <li data-i18n="skills.dbCap4">Admin dashboard functionality</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-card reveal">
+              <div class="skill-head">
+                <div class="skill-badge" aria-hidden="true">BE</div>
+                <h3 class="skill-title" data-i18n="skills.djTitle">Backend &amp; Languages</h3>
+              </div>
+              <p class="skill-desc" data-i18n="skills.djDesc">
+                Building robust backends with modern languages and frameworks.
+              </p>
+              <div class="skill-split">
+                <div>
+                  <div class="skill-kicker" data-i18n="skills.technologies">Technologies</div>
+                  <ul class="skill-list">
+                    <li>
+                      <span class="tool-item">
+                        <span class="tool-badge tool-badge--django" aria-hidden="true">Dj</span>
+                        <span>Django</span>
+                      </span>
+                    </li>
+                    <li>
+                      <span class="tool-item">
+                        <span class="tool-badge tool-badge--python" aria-hidden="true">Py</span>
+                        <span>Python</span>
+                      </span>
+                    </li>
+                    <li>
+                      <span class="tool-item">
+                        <span class="tool-badge tool-badge--laravel" aria-hidden="true">Lv</span>
+                        <span>Laravel</span>
+                      </span>
+                    </li>
+                    <li>
+                      <span class="tool-item">
+                        <span class="tool-badge tool-badge--go" aria-hidden="true">Go</span>
+                        <span>Go</span>
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <div class="skill-kicker" data-i18n="skills.capabilities">Capabilities</div>
+                  <ul class="skill-list">
+                    <li data-i18n="skills.djCap1">RESTful API development</li>
+                    <li data-i18n="skills.djCap2">ORM and database modeling</li>
+                    <li data-i18n="skills.djCap3">Authentication and authorization</li>
+                    <li data-i18n="skills.djCap4">Admin panels and dashboards</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-card reveal">
+              <div class="skill-head">
+                <div class="skill-badge" aria-hidden="true">OPT</div>
+                <h3 class="skill-title" data-i18n="skills.optTitle">Performance &amp; Optimization</h3>
+              </div>
+              <p class="skill-desc" data-i18n="skills.optDesc">Ensuring fast, secure, and high-performing websites.</p>
+              <div class="skill-kicker" data-i18n="skills.capabilities">Capabilities</div>
+              <ul class="skill-list">
+                <li data-i18n="skills.optCap1">SEO-friendly development</li>
+                <li data-i18n="skills.optCap2">Page speed optimization</li>
+                <li data-i18n="skills.optCap3">Clean and maintainable code</li>
+                <li data-i18n="skills.optCap4">Secure hosting and deployment</li>
+              </ul>
+            </div>
+
+            <div class="skill-card reveal">
+              <div class="skill-head">
+                <div class="skill-badge" aria-hidden="true">CL</div>
+                <h3 class="skill-title" data-i18n="skills.clientTitle">Client Communication &amp; Delivery</h3>
+              </div>
+              <p class="skill-desc" data-i18n="skills.clientDesc">
+                Providing smooth collaboration and professional delivery.
+              </p>
+              <div class="skill-kicker" data-i18n="skills.capabilities">Capabilities</div>
+              <ul class="skill-list">
+                <li data-i18n="skills.clientCap1">Project planning and consultation</li>
+                <li data-i18n="skills.clientCap2">Client requirement analysis</li>
+                <li data-i18n="skills.clientCap3">Ongoing website maintenance</li>
+                <li data-i18n="skills.clientCap4">WhatsApp and remote support</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-head section-head-center reveal">
+            <h2 data-i18n="projects.title">Projects</h2>
+            <p data-i18n="projects.subtitle">Selected work presented in modern glass cards with premium hover interactions.</p>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card reveal">
+              <div class="project-media">
+                <div class="project-preview">
+                  <img class="project-image" src="./2.jpg" alt="IZISPA Kigali preview" loading="lazy" decoding="async" />
+                </div>
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">Izispa-kigali.com</h3>
+                <p class="project-desc" data-i18n="projects.p2Desc">
+                  A business-ready layout with premium typography and strong hierarchy.
+                </p>
+                <ul class="project-points">
+                  <li data-i18n="projects.p2Goal">Goal: trust-first spa presentation</li>
+                  <li data-i18n="projects.p2Work">Work: premium typography and section structure</li>
+                  <li data-i18n="projects.p2Result">Result: modern look with strong service clarity</li>
+                </ul>
+                <a class="btn btn-small" href="https://izispa-kigali.com" target="_blank" rel="noreferrer">
+                  <span data-i18n="projects.visit">Visit Website</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-media">
+                <div class="project-preview">
+                  <img class="project-image" src="./3.jpg" alt="Dafrican BnB preview" loading="lazy" decoding="async" />
+                </div>
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">Dafricanbnb.com</h3>
+                <p class="project-desc" data-i18n="projects.p3Desc">
+                  A clean, modern web presence with conversion-focused CTAs.
+                </p>
+                <ul class="project-points">
+                  <li data-i18n="projects.p3Goal">Goal: promote bookings with clear CTAs</li>
+                  <li data-i18n="projects.p3Work">Work: modern landing layout and responsive sections</li>
+                  <li data-i18n="projects.p3Result">Result: smooth flow and improved mobile experience</li>
+                </ul>
+                <a class="btn btn-small" href="https://dafricanbnb.com" target="_blank" rel="noreferrer">
+                  <span data-i18n="projects.visit">Visit Website</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-media">
+                <div class="project-preview">
+                  <img class="project-image" src="./4.jpg" alt="Annette Massage preview" loading="lazy" decoding="async" />
+                </div>
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">Annetmassagetherapist.rw</h3>
+                <p class="project-desc" data-i18n="projects.p4Desc">
+                  A polished service site with refined visuals and smooth interaction.
+                </p>
+                <ul class="project-points">
+                  <li data-i18n="projects.p4Goal">Goal: premium service presentation</li>
+                  <li data-i18n="projects.p4Work">Work: clean sections, visuals, and user-friendly layout</li>
+                  <li data-i18n="projects.p4Result">Result: easy navigation and clear service details</li>
+                </ul>
+                <a class="btn btn-small" href="https://annetmassagetherapist.rw" target="_blank" rel="noreferrer">
+                  <span data-i18n="projects.visit">Visit Website</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-media">
+                <div class="project-preview">
+                  <img class="project-image" src="./5.jpg" alt="Vera School preview" loading="lazy" decoding="async" />
+                </div>
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">Veramassage-nailscare-school.rw</h3>
+                <p class="project-desc" data-i18n="projects.p5Desc">
+                  A premium education/service layout with elegant presentation.
+                </p>
+                <ul class="project-points">
+                  <li data-i18n="projects.p5Goal">Goal: showcase programs and services clearly</li>
+                  <li data-i18n="projects.p5Work">Work: structured layout with strong hierarchy</li>
+                  <li data-i18n="projects.p5Result">Result: polished presentation with easy discovery</li>
+                </ul>
+                <a
+                  class="btn btn-small"
+                  href="https://veramassage-nailscare-school.rw"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span data-i18n="projects.visit">Visit Website</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-media">
+                <div class="project-preview">
+                  <img class="project-image" src="./6.jpg" alt="Ijabo SMTB preview" loading="lazy" decoding="async" />
+                </div>
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">ijabo-smtb.rw</h3>
+                <p class="project-desc" data-i18n="projects.p6Desc">
+                  A sleek website with clean sections and modern card interactions.
+                </p>
+                <ul class="project-points">
+                  <li data-i18n="projects.p6Goal">Goal: modern school website experience</li>
+                  <li data-i18n="projects.p6Work">Work: clean sections and responsive layout</li>
+                  <li data-i18n="projects.p6Result">Result: smooth, professional site flow</li>
+                </ul>
+                <a
+                  class="btn btn-small"
+                  href="https://ijabo-smtb.rw/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span data-i18n="projects.visit">Visit Website</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-media">
+                <div class="project-preview">
+                  <img class="project-image" src="./ananda4h.jpg" alt="Ananda4H preview" loading="lazy" decoding="async" />
+                </div>
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">ananda4h.vercel.app</h3>
+                <p class="project-desc" data-i18n="projects.p7Desc">
+                  A modern wellness platform with clean design and smooth experience.
+                </p>
+                <ul class="project-points">
+                  <li data-i18n="projects.p7Goal">Goal: modern wellness platform experience</li>
+                  <li data-i18n="projects.p7Work">Work: clean UI and responsive layout</li>
+                  <li data-i18n="projects.p7Result">Result: polished, user-friendly site flow</li>
+                </ul>
+                <a
+                  class="btn btn-small"
+                  href="https://ananda4h.vercel.app"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span data-i18n="projects.visit">Visit Website</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-media">
+                <div class="project-preview">
+                  <img class="project-image" src="./Clinicare.jpg" alt="Clinicare preview" loading="lazy" decoding="async" />
+                </div>
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">Clinicare</h3>
+                <p class="project-desc" data-i18n="projects.p8Desc">
+                  AI-powered clinic management platform with smart scheduling, billing, and analytics.
+                </p>
+                <ul class="project-points">
+                  <li data-i18n="projects.p8Goal">Goal: modern clinic management with AI</li>
+                  <li data-i18n="projects.p8Work">Work: full-stack development, AI receptionist, billing system</li>
+                  <li data-i18n="projects.p8Result">Result: smart, efficient healthcare platform</li>
+                </ul>
+                <a
+                  class="btn btn-small"
+                  href="https://clinicare-one.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span data-i18n="projects.visit">Visit Website</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-media">
+                <div class="project-preview">
+                  <img class="project-image" src="./school-mgmt.jpg" alt="School Management preview" loading="lazy" decoding="async" />
+                </div>
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">School Management System</h3>
+                <p class="project-desc" data-i18n="projects.p9Desc">
+                  Multi-school management system — students, attendance, exams, fees, and report cards.
+                </p>
+                <ul class="project-points">
+                  <li data-i18n="projects.p9Goal">Goal: unified multi-school platform with RBAC</li>
+                  <li data-i18n="projects.p9Work">Work: Laravel backend, role-based access, activity logging</li>
+                  <li data-i18n="projects.p9Result">Result: comprehensive school administration solution</li>
+                </ul>
+                <a
+                  class="btn btn-small"
+                  href="https://school-management-system-syiu.onrender.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span data-i18n="projects.visit">Visit Website</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-media">
+                <div class="project-preview">
+                  <img class="project-image" src="./Luxedine.jpg" alt="LuxeDine preview" loading="lazy" decoding="async" />
+                </div>
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">LuxeDine</h3>
+                <p class="project-desc" data-i18n="projects.p10Desc">
+                  Restaurant management system for menu, orders, reservations, and staff.
+                </p>
+                <ul class="project-points">
+                  <li data-i18n="projects.p10Goal">Goal: streamline restaurant operations</li>
+                  <li data-i18n="projects.p10Work">Work: order management, reservation system, staff dashboard</li>
+                  <li data-i18n="projects.p10Result">Result: efficient restaurant management platform</li>
+                </ul>
+                <a
+                  class="btn btn-small"
+                  href="https://luxedine-1u2x.onrender.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span data-i18n="projects.visit">Visit Website</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-media">
+                <div class="project-preview">
+                  <img class="project-image" src="./bralirwa-ims.jpg" alt="Bralirwa IMS preview" loading="lazy" decoding="async" />
+                </div>
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">Bralirwa IMS</h3>
+                <p class="project-desc" data-i18n="projects.p11Desc">
+                  Role-based inventory management system for BRALIRWA distributors.
+                </p>
+                <ul class="project-points">
+                  <li data-i18n="projects.p11Goal">Goal: distributor inventory tracking and control</li>
+                  <li data-i18n="projects.p11Work">Work: role-based access, stock tracking, reporting</li>
+                  <li data-i18n="projects.p11Result">Result: enterprise-grade inventory solution</li>
+                </ul>
+                <a
+                  class="btn btn-small"
+                  href="https://bralirwa-ims.vercel.app"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span data-i18n="projects.visit">Visit Website</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-media">
+                <div class="project-preview">
+                  <img class="project-image" src="./1.jpg" alt="Liberation Meditation preview" loading="lazy" decoding="async" />
+                </div>
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">Liberationmeditation.org</h3>
+                <p class="project-desc" data-i18n="projects.p1Desc">
+                  A calm, modern site with clean visuals and smooth section flow.
+                </p>
+                <ul class="project-points">
+                  <li data-i18n="projects.p1Goal">Goal: premium wellness brand presence</li>
+                  <li data-i18n="projects.p1Work">Work: clean UI, responsive layout, smooth section flow</li>
+                  <li data-i18n="projects.p1Result">Result: clear CTAs and refined visual hierarchy</li>
+                </ul>
+                <a class="btn btn-small" href="https://liberationmeditation.org" target="_blank" rel="noreferrer">
+                  <span data-i18n="projects.visit">Visit Website</span>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="sample-projects" class="section">
+        <div class="container">
+          <div class="section-head section-head-center reveal">
+            <h2 data-i18n="samples.title">Sample Projects</h2>
+            <p data-i18n="samples.subtitle">Additional demos and prototypes showcasing layouts, UI, and interactions.</p>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card reveal">
+              <div class="project-media">
+                <div class="project-preview">
+                  <img class="project-image" src="./Legends.jpg" alt="Legends Barberr House preview" loading="lazy" decoding="async" />
+                </div>
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">legends-barberr-house.netlify.app</h3>
+                <p class="project-desc" data-i18n="samples.p1Desc">
+                  A clean demo build with modern sections and premium styling.
+                </p>
+                <ul class="project-points">
+                  <li data-i18n="samples.p1Goal">Goal: modern barber shop landing demo</li>
+                  <li data-i18n="samples.p1Work">Work: premium UI and responsive sections</li>
+                  <li data-i18n="samples.p1Result">Result: clean layout with clear CTAs</li>
+                </ul>
+                <a class="btn btn-small" href="https://legends-barberr-house.netlify.app/" target="_blank" rel="noreferrer">
+                  <span data-i18n="projects.visit">Visit Website</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-media">
+                <div class="project-preview">
+                  <img class="project-image" src="./Buntu.jpg" alt="Buntu Spa preview" loading="lazy" decoding="async" />
+                </div>
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">buntu-spa.netlify.app</h3>
+                <p class="project-desc" data-i18n="samples.p2Desc">
+                  A spa-style layout demo with calm visuals and clear hierarchy.
+                </p>
+                <ul class="project-points">
+                  <li data-i18n="samples.p2Goal">Goal: wellness landing page layout</li>
+                  <li data-i18n="samples.p2Work">Work: calm visuals and clean section spacing</li>
+                  <li data-i18n="samples.p2Result">Result: premium look with strong readability</li>
+                </ul>
+                <a class="btn btn-small" href="https://buntu-spa.netlify.app/" target="_blank" rel="noreferrer">
+                  <span data-i18n="projects.visit">Visit Website</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-media">
+                <div class="project-preview">
+                  <img class="project-image" src="./rrapro.jpg" alt="RRA Prototype preview" loading="lazy" decoding="async" />
+                </div>
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">rraprototype.netlify.app</h3>
+                <p class="project-desc" data-i18n="samples.p3Desc">
+                  Prototype UI exploring navigation, layout, and interaction patterns.
+                </p>
+                <ul class="project-points">
+                  <li data-i18n="samples.p3Goal">Goal: UI exploration and layout testing</li>
+                  <li data-i18n="samples.p3Work">Work: navigation patterns and clean structure</li>
+                  <li data-i18n="samples.p3Result">Result: strong foundation for scalable pages</li>
+                </ul>
+                <a class="btn btn-small" href="https://rraprototype.netlify.app/" target="_blank" rel="noreferrer">
+                  <span data-i18n="projects.visit">Visit Website</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-media">
+                <div class="project-preview">
+                  <img class="project-image" src="./yoga.jpg" alt="Yoga In Kigal preview" loading="lazy" decoding="async" />
+                </div>
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">yoga-in-kigal.netlify.app</h3>
+                <p class="project-desc" data-i18n="samples.p4Desc">
+                  A lightweight demo for a wellness landing page and CTA flow.
+                </p>
+                <ul class="project-points">
+                  <li data-i18n="samples.p4Goal">Goal: clean wellness landing demo</li>
+                  <li data-i18n="samples.p4Work">Work: CTA-focused structure and responsive layout</li>
+                  <li data-i18n="samples.p4Result">Result: simple, modern, fast experience</li>
+                </ul>
+                <a class="btn btn-small" href="https://yoga-in-kigal.netlify.app/" target="_blank" rel="noreferrer">
+                  <span data-i18n="projects.visit">Visit Website</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-media">
+                <div class="project-preview">
+                  <img class="project-image" src="./kigaliclipper.jpg" alt="Kigali Clipper Zone preview" loading="lazy" decoding="async" />
+                </div>
+              </div>
+              <div class="project-body">
+                <h3 class="project-title">kigali-clipper-zone.netlify.app</h3>
+                <p class="project-desc" data-i18n="samples.p5Desc">
+                  Barber shop demo featuring modern cards, sections, and buttons.
+                </p>
+                <ul class="project-points">
+                  <li data-i18n="samples.p5Goal">Goal: modern barbershop demo UI</li>
+                  <li data-i18n="samples.p5Work">Work: cards, sections, and premium button styling</li>
+                  <li data-i18n="samples.p5Result">Result: clear hierarchy with modern interactions</li>
+                </ul>
+                <a class="btn btn-small" href="https://kigali-clipper-zone.netlify.app/" target="_blank" rel="noreferrer">
+                  <span data-i18n="projects.visit">Visit Website</span>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section section-alt">
+        <div class="container">
+          <div class="section-head section-head-center reveal">
+            <h2 data-i18n="services.title">Services</h2>
+            <p data-i18n="services.subtitle">High-end delivery tailored for businesses and personal brands.</p>
+          </div>
+
+          <div class="cards-grid">
+            <div class="service-card reveal">
+              <div class="card-head">
+                <div class="card-badge card-badge--design" aria-hidden="true">WD</div>
+                <div class="card-title" data-i18n="services.s1Title">Website Design</div>
+              </div>
+              <div class="card-desc" data-i18n="services.s1Desc">Luxury UI with clear hierarchy and premium details.</div>
+            </div>
+            <div class="service-card reveal">
+              <div class="card-head">
+                <div class="card-badge card-badge--dev" aria-hidden="true">DEV</div>
+                <div class="card-title" data-i18n="services.s2Title">Website Development</div>
+              </div>
+              <div class="card-desc" data-i18n="services.s2Desc">
+                Fast, responsive builds with smooth interactions and modern standards.
+              </div>
+            </div>
+            <div class="service-card reveal">
+              <div class="card-head">
+                <div class="card-badge card-badge--redo" aria-hidden="true">RE</div>
+                <div class="card-title" data-i18n="services.s3Title">Website Redesign</div>
+              </div>
+              <div class="card-desc" data-i18n="services.s3Desc">
+                Upgrade outdated sites into premium, modern experiences.
+              </div>
+            </div>
+            <div class="service-card reveal">
+              <div class="card-head">
+                <div class="card-badge card-badge--lp" aria-hidden="true">LP</div>
+                <div class="card-title" data-i18n="services.s4Title">Landing Page Development</div>
+              </div>
+              <div class="card-desc" data-i18n="services.s4Desc">
+                Conversion-focused pages with refined visuals and speed.
+              </div>
+            </div>
+            <div class="service-card reveal">
+              <div class="card-head">
+                <div class="card-badge card-badge--biz" aria-hidden="true">B2B</div>
+                <div class="card-title" data-i18n="services.s5Title">Business Websites</div>
+              </div>
+              <div class="card-desc" data-i18n="services.s5Desc">
+                Professional sites that build trust and grow your brand.
+              </div>
+            </div>
+            <div class="service-card reveal">
+              <div class="card-head">
+                <div class="card-badge card-badge--ecom" aria-hidden="true">EC</div>
+                <div class="card-title" data-i18n="services.s6Title">E-Commerce Websites</div>
+              </div>
+              <div class="card-desc" data-i18n="services.s6Desc">
+                Online stores with product listings, payments, and a smooth checkout flow.
+              </div>
+            </div>
+            <div class="service-card reveal">
+              <div class="card-head">
+                <div class="card-badge card-badge--sys" aria-hidden="true">SYS</div>
+                <div class="card-title" data-i18n="services.s7Title">System Management</div>
+              </div>
+              <div class="card-desc" data-i18n="services.s7Desc">
+                Admin dashboards and content systems to manage your operations efficiently.
+              </div>
+            </div>
+            <div class="service-card reveal">
+              <div class="card-head">
+                <div class="card-badge card-badge--soft" aria-hidden="true">SD</div>
+                <div class="card-title" data-i18n="services.s8Title">Software Development</div>
+              </div>
+              <div class="card-desc" data-i18n="services.s8Desc">
+                Web-based software solutions built for reliability, scalability, and performance.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="audit" class="section">
+        <div class="container">
+          <div class="glass-card reveal audit-card">
+            <div class="card-head">
+              <div class="card-badge card-badge--lp" aria-hidden="true">FA</div>
+              <h3 data-i18n="audit.title">Free 10-Min Website Audit</h3>
+            </div>
+            <p data-i18n="audit.body">
+              Share your website link and I’ll send quick improvement suggestions for design, performance, and UX.
+            </p>
+            <div class="hero-cta">
+              <a class="btn btn-primary" href="#contact" data-audit-cta data-i18n="audit.ctaForm">Request Free Audit</a>
+              <a
+                class="btn btn-ghost"
+                href="https://wa.me/250788800813?text=Hi%20Chris%2C%20I%27d%20like%20a%20free%2010-minute%20website%20audit.%20Here%20is%20my%20link%3A"
+                target="_blank"
+                rel="noreferrer"
+                data-i18n="audit.ctaWhatsApp"
+                data-i18n-href="audit.waHref"
+              >
+                WhatsApp Audit
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="quality" class="section section-alt">
+        <div class="container">
+          <div class="section-head section-head-center reveal">
+            <h2 data-i18n="quality.title">Quality &amp; Performance</h2>
+            <p data-i18n="quality.subtitle">Built to look premium, load fast, and work cleanly on every screen.</p>
+          </div>
+
+          <div class="cards-grid">
+            <div class="glass-card reveal">
+              <div class="card-head">
+                <div class="card-badge" aria-hidden="true">⚡</div>
+                <h3 data-i18n="quality.speedTitle">Speed</h3>
+              </div>
+              <p data-i18n="quality.speedBody">Performance-focused structure, optimized assets, and smooth UX.</p>
+            </div>
+            <div class="glass-card reveal">
+              <div class="card-head">
+                <div class="card-badge card-badge--biz" aria-hidden="true">SEO</div>
+                <h3 data-i18n="quality.seoTitle">SEO-Ready</h3>
+              </div>
+              <p data-i18n="quality.seoBody">Semantic structure and clean hierarchy that search engines understand.</p>
+            </div>
+            <div class="glass-card reveal">
+              <div class="card-head">
+                <div class="card-badge card-badge--redo" aria-hidden="true">A11Y</div>
+                <h3 data-i18n="quality.a11yTitle">Accessible</h3>
+              </div>
+              <p data-i18n="quality.a11yBody">Readable contrast, sensible navigation, and user-friendly interactions.</p>
+            </div>
+            <div class="glass-card reveal">
+              <div class="card-head">
+                <div class="card-badge card-badge--sys" aria-hidden="true">🔒</div>
+                <h3 data-i18n="quality.deployTitle">Deployment</h3>
+              </div>
+              <p data-i18n="quality.deployBody">Secure hosting guidance and a stable, professional launch setup.</p>
+            </div>
+          </div>
+
+          <div class="glass-card reveal deliverables-card">
+            <div class="card-head">
+              <div class="card-badge card-badge--dev" aria-hidden="true">✔</div>
+              <h3 data-i18n="quality.getTitle">What You Get</h3>
+            </div>
+            <ul class="skill-list deliverables-list">
+              <li data-i18n="quality.get1">Mobile-first responsive layout</li>
+              <li data-i18n="quality.get2">Premium UI styling and clean spacing</li>
+              <li data-i18n="quality.get3">Fast-loading pages and optimized media</li>
+              <li data-i18n="quality.get4">Clear CTAs and conversion-focused structure</li>
+              <li data-i18n="quality.get5">Launch support and basic maintenance guidance</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="section">
+        <div class="container">
+          <div class="section-head section-head-center reveal">
+            <h2 data-i18n="pricing.title">Pricing</h2>
+            <p data-i18n="pricing.subtitle">Transparent starting points. Final quote depends on scope and features.</p>
+          </div>
+
+          <div class="cards-grid">
+            <div class="glass-card reveal price-card">
+              <div class="card-head">
+                <div class="card-badge card-badge--lp" aria-hidden="true">SP</div>
+                <h3 data-i18n="pricing.p1Title">Starter Landing Page</h3>
+              </div>
+              <div class="price-amount" data-i18n="pricing.p1Price">Starting at $100</div>
+              <ul class="skill-list price-list">
+                <li data-i18n="pricing.p1Item1">1-page conversion layout</li>
+                <li data-i18n="pricing.p1Item2">Mobile-first responsive design</li>
+                <li data-i18n="pricing.p1Item3">Contact + WhatsApp integration</li>
+              </ul>
+            </div>
+            <div class="glass-card reveal price-card">
+              <div class="card-head">
+                <div class="card-badge card-badge--biz" aria-hidden="true">BZ</div>
+                <h3 data-i18n="pricing.p2Title">Business Website</h3>
+              </div>
+              <div class="price-amount" data-i18n="pricing.p2Price">Starting at $300</div>
+              <ul class="skill-list price-list">
+                <li data-i18n="pricing.p2Item1">Up to 5 pages</li>
+                <li data-i18n="pricing.p2Item2">Premium UI and clean section flow</li>
+                <li data-i18n="pricing.p2Item3">Basic SEO structure</li>
+              </ul>
+            </div>
+            <div class="glass-card reveal price-card">
+              <div class="card-head">
+                <div class="card-badge card-badge--dev" aria-hidden="true">PR</div>
+                <h3 data-i18n="pricing.p3Title">Premium Custom Build</h3>
+              </div>
+              <div class="price-amount" data-i18n="pricing.p3Price">Starting at $800</div>
+              <ul class="skill-list price-list">
+                <li data-i18n="pricing.p3Item1">Advanced UI and custom components</li>
+                <li data-i18n="pricing.p3Item2">Integrations and dynamic features</li>
+                <li data-i18n="pricing.p3Item3">Performance and UX refinement</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials" class="section section-alt">
+        <div class="container">
+          <div class="section-head section-head-center reveal">
+            <h2 data-i18n="testimonials.title">Testimonials</h2>
+            <p data-i18n="testimonials.subtitle">Add real client feedback here to boost trust and conversions.</p>
+          </div>
+
+          <div class="cards-grid">
+            <div class="glass-card reveal testimonial-card">
+              <p class="testimonial-quote" data-i18n="testimonials.t1">
+                “Chris delivered a premium website for our school and made the programs easy to understand. The layout is
+                clean, fast on mobile, and our inquiries increased because everything is now clear and professional.”
+              </p>
+              <div class="testimonial-meta">Zimulinda - Vera School of Massage Therapist &amp; Nails Care</div>
+            </div>
+            <div class="glass-card reveal testimonial-card">
+              <p class="testimonial-quote" data-i18n="testimonials.t2">
+                “We wanted a modern look that feels high-end and trustworthy. Chris handled the design and structure
+                perfectly, and the site now represents our spa the way we imagined.”
+              </p>
+              <div class="testimonial-meta">Peter - Izi Spa Kigali</div>
+            </div>
+            <div class="glass-card reveal testimonial-card">
+              <p class="testimonial-quote" data-i18n="testimonials.t3">
+                “Chris built us a clean, modern site with clear calls-to-action. It loads quickly, looks great on every
+                device, and our guests can find what they need in seconds.”
+              </p>
+              <div class="testimonial-meta">Lydia - D’african BnB</div>
+            </div>
+          </div>
+
+
+        </div>
+      </section>
+
+      <section id="faq" class="section">
+        <div class="container">
+          <div class="section-head section-head-center reveal">
+            <h2 data-i18n="faq.title">FAQ</h2>
+            <p data-i18n="faq.subtitle">Quick answers about timelines, workflow, and what you need to get started.</p>
+          </div>
+
+          <div class="faq-grid">
+            <details class="glass-card reveal faq-item">
+              <summary data-i18n="faq.q1">How long does a website take?</summary>
+              <div class="faq-body">
+                <span data-i18n="faq.a1">
+                  Most builds take 3–14 days depending on pages, features, and how fast content is provided.
+                </span>
+              </div>
+            </details>
+            <details class="glass-card reveal faq-item">
+              <summary data-i18n="faq.q2">What do you need from me to start?</summary>
+              <div class="faq-body">
+                <span data-i18n="faq.a2">
+                  Your business info, goals, inspiration examples, brand assets (logo/colors), and any text/photos you have.
+                </span>
+              </div>
+            </details>
+            <details class="glass-card reveal faq-item">
+              <summary data-i18n="faq.q3">Do you offer revisions?</summary>
+              <div class="faq-body">
+                <span data-i18n="faq.a3">
+                  Yes. Revisions are included during the design/build phase to make sure the final result matches your vision.
+                </span>
+              </div>
+            </details>
+            <details class="glass-card reveal faq-item">
+              <summary data-i18n="faq.q4">Can you help with hosting and domain?</summary>
+              <div class="faq-body">
+                <span data-i18n="faq.a4">
+                  Yes. I can recommend reliable hosting and guide you through domain setup and deployment.
+                </span>
+              </div>
+            </details>
+            <details class="glass-card reveal faq-item">
+              <summary data-i18n="faq.q5">Do you provide maintenance?</summary>
+              <div class="faq-body">
+                <span data-i18n="faq.a5">
+                  Yes. I can maintain your site, update content, and improve performance over time if needed.
+                </span>
+              </div>
+            </details>
+            <details class="glass-card reveal faq-item">
+              <summary data-i18n="faq.q6">How do payments work?</summary>
+              <div class="faq-body">
+                <span data-i18n="faq.a6">
+                  Typically a deposit to start and the balance on completion, depending on the project scope.
+                </span>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <div class="section-head section-head-center reveal">
+            <h2 data-i18n="contact.title">Contact</h2>
+            <p>
+              <span data-i18n="contact.subtitle">
+                Ready to build something premium? Send a message or start a WhatsApp chat.
+              </span>
+              <span class="contact-line">
+                <span class="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                    <path
+                      d="M22 16.92v3a2 2 0 0 1-2.18 2A19.8 19.8 0 0 1 11.19 19.8a19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.08 4.18 2 2 0 0 1 4.06 2h3a2 2 0 0 1 2 1.72c.12.86.3 1.7.54 2.5a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.58-1.06a2 2 0 0 1 2.11-.45c.8.24 1.64.42 2.5.54A2 2 0 0 1 22 16.92Z"
+                    ></path>
+                  </svg>
+                </span>
+                <a href="tel:+250788800813"><strong>+250 788 800 813</strong></a>
+              </span>
+              <span class="contact-line">
+                <span class="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16v16H4z"></path>
+                    <path d="m22 6-10 7L2 6"></path>
+                  </svg>
+                </span>
+                <a href="mailto:kris.karisma@proton.me"><strong>kris.karisma@proton.me</strong></a>
+              </span>
+            </p>
+          </div>
+
+          <div class="contact-grid">
+            <form class="glass-card contact-form reveal" data-contact-form>
+              <label>
+                <span data-i18n="contact.nameLabel">Name</span>
+                <input name="name" autocomplete="name" required placeholder="Your name" data-i18n-placeholder="contact.namePlaceholder" />
+              </label>
+              <label>
+                <span data-i18n="contact.phoneLabel">Phone (WhatsApp)</span>
+                <input name="phone" type="tel" autocomplete="tel" placeholder="+250..." data-i18n-placeholder="contact.phonePlaceholder" />
+              </label>
+              <label class="full">
+                <span data-i18n="contact.emailLabel">Email</span>
+                <input name="email" type="email" autocomplete="email" placeholder="you@example.com" data-i18n-placeholder="contact.emailPlaceholder" />
+              </label>
+              <label class="full">
+                <span data-i18n="contact.messageLabel">Message</span>
+                <textarea
+                  name="message"
+                  rows="6"
+                  required
+                  placeholder="Tell me about your project..."
+                  data-i18n-placeholder="contact.messagePlaceholder"
+                ></textarea>
+              </label>
+
+              <div class="contact-actions full">
+                <button class="btn btn-primary" type="submit" data-i18n="contact.sendWhatsApp">Send via WhatsApp</button>
+                <button class="btn btn-ghost" type="button" data-email data-i18n="contact.sendEmail">Send Email</button>
+              </div>
+              <div class="form-note full" data-form-note role="status" aria-live="polite"></div>
+            </form>
+
+            <div class="glass-card contact-aside reveal">
+              <div class="card-head">
+                <div class="card-badge card-badge--chat" aria-hidden="true">WA</div>
+                <h3 data-i18n="contact.quickTitle">Quick Chat</h3>
+              </div>
+              <p data-i18n="contact.quickBody">Tap to start a WhatsApp conversation instantly.</p>
+              <a
+                class="btn btn-small btn-primary"
+                href="https://wa.me/250788800813"
+                target="_blank"
+                rel="noreferrer"
+                data-i18n="contact.quickCta"
+              >
+                WhatsApp Quick Chat
+              </a>
+              <div class="divider" aria-hidden="true"></div>
+              <div class="mini">
+                <div class="mini-label">
+                  <span data-i18n="contact.basedIn">Based in</span>
+                </div>
+                <div class="mini-value">Kigali, Rwanda</div>
+              </div>
+              <div class="mini">
+                <div class="mini-label">
+                  <span data-i18n="contact.focus">Focus</span>
+                </div>
+                <div class="mini-value" data-i18n="contact.focusValue">Premium websites & UI</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <button class="wa-fab" type="button" aria-label="Scroll to top" data-i18n-aria="fabTop.aria">
+      <span class="wa-fab-inner" aria-hidden="true">↑</span>
+    </button>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-row">
+          <div><span data-i18n="footer.copy">©</span> <span data-year></span> Chris Charisma</div>
+          <div class="footer-links">
+            <a href="#projects" data-i18n="nav.work">Work</a>
+            <a href="#contact" data-i18n="nav.contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>
