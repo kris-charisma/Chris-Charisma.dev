@@ -30,7 +30,7 @@ const I18N = {
     "hero.metaSpecialty": "Specialty",
     "hero.metaAvailability": "Availability",
     "hero.metaAvailabilityValue": "Open to projects",
-    "hero.typingPhrases": ["Enterprise Software", "Full-Stack Development", "Scalable Systems", "Clean Architecture"],
+    "hero.typingPhrases": ["Enterprise Software", "Full-Stack Dev", "Scalable Systems", "Clean Architecture"],
 
     "summary.title": "Building software that helps businesses grow.",
     "summary.body": "I develop secure, scalable, and user-focused applications, from company websites to enterprise management systems, with an emphasis on clean architecture, excellent user experience, and long-term maintainability.",
@@ -375,7 +375,7 @@ const I18N = {
     "hero.metaSpecialty": "Spécialité",
     "hero.metaAvailability": "Disponibilité",
     "hero.metaAvailabilityValue": "Disponible pour des projets",
-    "hero.typingPhrases": ["Logiciels Enterprise", "Développement Full-Stack", "Systèmes scalables", "Architecture propre"],
+    "hero.typingPhrases": ["Logiciels Enterprise", "Full-Stack Dev", "Systèmes scalables", "Architecture propre"],
 
     "summary.title": "Construire des logiciels qui font grandir les entreprises.",
     "summary.body": "Je développe des applications sécurisées, scalables et centrées sur l’utilisateur, des sites d’entreprise aux systèmes de gestion enterprise, en mettant l’accent sur une architecture propre, une excellente expérience utilisateur et une maintenabilité à long terme.",

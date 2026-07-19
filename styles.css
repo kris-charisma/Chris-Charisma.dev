@@ -508,6 +508,8 @@ button.btn.btn-ghost[data-email]:hover {
   font-family: "Space Grotesk", Inter, system-ui, sans-serif;
   font-weight: 700;
   letter-spacing: -0.2px;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .section {
