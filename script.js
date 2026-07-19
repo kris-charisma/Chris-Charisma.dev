@@ -33,6 +33,18 @@ const I18N = {
     "hero.metaAvailabilityValue": "Open to projects",
     "hero.typingPhrases": ["Enterprise Software", "Full-Stack Development", "Scalable Systems", "Clean Architecture"],
 
+    "stats.trackRecord": "Track Record",
+    "stats.delivered": "Delivered",
+    "stats.techStack": "Tech Stack",
+    "stats.frontendFocus": "Frontend Focus",
+    "stats.status": "Status",
+    "stats.yearsLabel": "Years Experience",
+    "stats.projectsLabel": "Projects Completed",
+    "stats.technologiesLabel": "Technologies",
+    "stats.responsiveLabel": "Responsive Designs",
+    "stats.availableValue": "Available",
+    "stats.fullTimeLabel": "For Full-Time Opportunities",
+
     "summary.title": "Building software that helps businesses grow.",
     "summary.body": "I develop secure, scalable, and user-focused applications, from company websites to enterprise management systems, with an emphasis on clean architecture, excellent user experience, and long-term maintainability.",
 
@@ -378,6 +390,18 @@ const I18N = {
     "hero.metaAvailability": "Disponibilité",
     "hero.metaAvailabilityValue": "Disponible pour des projets",
     "hero.typingPhrases": ["Logiciels Enterprise", "Développement Full-Stack", "Systèmes scalables", "Architecture propre"],
+
+    "stats.trackRecord": "Parcours",
+    "stats.delivered": "Livrés",
+    "stats.techStack": "Stack technique",
+    "stats.frontendFocus": "Focus frontend",
+    "stats.status": "Statut",
+    "stats.yearsLabel": "Années d'expérience",
+    "stats.projectsLabel": "Projets complétés",
+    "stats.technologiesLabel": "Technologies",
+    "stats.responsiveLabel": "Designs responsives",
+    "stats.availableValue": "Disponible",
+    "stats.fullTimeLabel": "Pour opportunités à temps plein",
 
     "summary.title": "Construire des logiciels qui font grandir les entreprises.",
     "summary.body": "Je développe des applications sécurisées, scalables et centrées sur l’utilisateur, des sites d’entreprise aux systèmes de gestion enterprise, en mettant l’accent sur une architecture propre, une excellente expérience utilisateur et une maintenabilité à long terme.",
@@ -890,6 +914,43 @@ function setupReveal() {
   elements.forEach((el) => observer.observe(el));
 }
 
+function setupCountUp() {
+  const counters = document.querySelectorAll("[data-count]");
+  if (!counters.length) return;
+
+  if (prefersReducedMotion()) {
+    counters.forEach((el) => { el.textContent = el.getAttribute("data-count"); });
+    return;
+  }
+
+  const animate = (el) => {
+    const target = parseInt(el.getAttribute("data-count"), 10);
+    const duration = 1600;
+    const start = performance.now();
+
+    const step = (now) => {
+      const progress = Math.min((now - start) / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      el.textContent = Math.round(eased * target);
+      if (progress < 1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  };
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        animate(entry.target);
+        observer.unobserve(entry.target);
+      });
+    },
+    { threshold: 0.5 }
+  );
+
+  counters.forEach((el) => observer.observe(el));
+}
+
 function setupTyping() {
   const el = document.querySelector("[data-typing]");
   if (!el) return;
@@ -1178,6 +1239,7 @@ setupStableViewportHeight();
 setupLanguage();
 setupNav();
 setupReveal();
+setupCountUp();
 setupTyping();
 setupHeroSlideshow();
 setupProjectPreviews();
