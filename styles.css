@@ -514,6 +514,10 @@ button.btn.btn-ghost[data-email]:hover {
   padding: 84px 0;
 }
 
+#summary {
+  padding: 40px 0 0;
+}
+
 .section-alt {
   background: radial-gradient(800px 500px at 25% 10%, rgba(99, 102, 241, 0.12), transparent 55%),
     rgba(17, 24, 39, 0.35);
