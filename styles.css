@@ -477,9 +477,9 @@ button.btn.btn-ghost[data-email]:hover {
 .hero-meta {
   margin-top: 32px;
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: 1fr;
   gap: 12px;
-  max-width: 920px;
+  max-width: 320px;
   align-items: stretch;
 }
 
