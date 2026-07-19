@@ -36,7 +36,7 @@ const I18N = {
     "summary.title": "Building software that helps businesses grow.",
     "summary.body": "I develop secure, scalable, and user-focused applications, from company websites to enterprise management systems, with an emphasis on clean architecture, excellent user experience, and long-term maintainability.",
 
-    "about.title": "About Toussaint",
+    "about.title": "About Chris Charisma (Christien Iyamarere Toussaint)",
     "about.body":
       "I'm a Full-Stack Software Developer based in Kigali, Rwanda, specializing in building scalable web applications, business management systems, and modern digital experiences.<br /><br />Over the past four years, I've designed and developed production-ready solutions including ERP systems, inventory management systems, restaurant management platforms, and custom business websites that improve operational efficiency and user experience.<br /><br />I enjoy turning complex business requirements into clean, intuitive, and high-performing software using Laravel, Django, PHP, JavaScript, MySQL, Bootstrap, and modern frontend technologies.<br /><br />Beyond writing code, I focus on software architecture, performance optimization, responsive UI/UX, API integration, database design, and creating products that deliver measurable business value.<br /><br />I'm always excited to collaborate with ambitious teams, learn new technologies, and build software that makes a real impact.",
     "about.card1Title": "Clean architecture, modern stack",
@@ -382,7 +382,7 @@ const I18N = {
     "summary.title": "Construire des logiciels qui font grandir les entreprises.",
     "summary.body": "Je développe des applications sécurisées, scalables et centrées sur l’utilisateur, des sites d’entreprise aux systèmes de gestion enterprise, en mettant l’accent sur une architecture propre, une excellente expérience utilisateur et une maintenabilité à long terme.",
 
-    "about.title": "À propos de Toussaint",
+    "about.title": "À propos de Chris Charisma (Christien Iyamarere Toussaint)",
     "about.body":
       "Je suis Développeur Full-Stack basé à Kigali, Rwanda, spécialisé dans la création d’applications web scalables, systèmes de gestion d’entreprise et expériences digitales modernes.<br /><br />Au cours des quatre dernières années, j’ai conçu et développé des solutions prêtes pour la production, notamment des systèmes ERP, des systèmes de gestion d’inventaire, des plateformes de gestion de restaurant et des sites web d’entreprise qui améliorent l’efficacité opérationnelle et l’expérience utilisateur.<br /><br />J’aime transformer des exigences techniques complexes en logiciels propres, intuitifs et performants en utilisant Laravel, Django, PHP, JavaScript, MySQL, Bootstrap et des technologies frontend modernes.<br /><br />Au-delà du code, je me concentre sur l’architecture logicielle, l’optimisation des performances, le UI/UX responsive, l’intégration d’API, la conception de bases de données et la création de produits qui génèrent une valeur mesurable.<br /><br />Je suis toujours enthousiaste à l’idée de collaborer avec des équipes ambitieuses, d’apprendre de nouvelles technologies et de construire des logiciels qui ont un impact réel.",
     "about.card1Title": "Architecture propre, stack moderne",
