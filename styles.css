@@ -528,6 +528,9 @@ button.btn.btn-ghost[data-email]:hover {
 
 .bring-grid {
   margin-top: 28px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .bring-heading {
@@ -543,8 +546,8 @@ button.btn.btn-ghost[data-email]:hover {
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 8px 12px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px 16px;
 }
 
 .bring-list li {
