@@ -479,7 +479,7 @@ button.btn.btn-ghost[data-email]:hover {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  max-width: 221px;
+  max-width: 287px;
   align-items: stretch;
 }
 
