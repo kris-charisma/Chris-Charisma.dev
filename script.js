@@ -34,6 +34,16 @@ const I18N = {
 
     "summary.title": "Building software that helps businesses grow.",
     "summary.body": "I develop secure, scalable, and user-focused applications, from company websites to enterprise management systems, with an emphasis on clean architecture, excellent user experience, and long-term maintainability.",
+    "summary.bringTitle": "What I Bring",
+    "summary.bring1": "Clean and maintainable code",
+    "summary.bring2": "REST API integration",
+    "summary.bring3": "Database design",
+    "summary.bring4": "Responsive web development",
+    "summary.bring5": "Performance optimization",
+    "summary.bring6": "Git workflow",
+    "summary.bring7": "Team collaboration",
+    "summary.bring8": "Problem solving",
+    "summary.bring9": "UI/UX implementation",
 
     "about.title": "About Chris Charisma (Christien Iyamarere Toussaint)",
     "about.body":
@@ -379,6 +389,16 @@ const I18N = {
 
     "summary.title": "Construire des logiciels qui font grandir les entreprises.",
     "summary.body": "Je développe des applications sécurisées, scalables et centrées sur l’utilisateur, des sites d’entreprise aux systèmes de gestion enterprise, en mettant l’accent sur une architecture propre, une excellente expérience utilisateur et une maintenabilité à long terme.",
+    "summary.bringTitle": "Ce que j’apporte",
+    "summary.bring1": "Code propre et maintenable",
+    "summary.bring2": "Intégration d’API REST",
+    "summary.bring3": "Conception de bases de données",
+    "summary.bring4": "Développement web responsive",
+    "summary.bring5": "Optimisation des performances",
+    "summary.bring6": "Workflow Git",
+    "summary.bring7": "Travail d’équipe",
+    "summary.bring8": "Résolution de problèmes",
+    "summary.bring9": "Implémentation UI/UX",
 
     "about.title": "À propos de Chris Charisma (Christien Iyamarere Toussaint)",
     "about.body":

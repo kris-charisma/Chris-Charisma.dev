@@ -526,6 +526,47 @@ button.btn.btn-ghost[data-email]:hover {
   padding: 40px 0 0;
 }
 
+.bring-grid {
+  margin-top: 28px;
+}
+
+.bring-heading {
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgba(229, 231, 235, 0.92);
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+.bring-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px 20px;
+}
+
+.bring-list li {
+  font-size: 14px;
+  color: rgba(229, 231, 235, 0.72);
+  padding-left: 18px;
+  position: relative;
+}
+
+.bring-list li::before {
+  content: "\2022";
+  position: absolute;
+  left: 0;
+  color: var(--xanthous);
+}
+
+@media (max-width: 640px) {
+  .bring-list {
+    grid-template-columns: 1fr;
+  }
+}
+
 .section-alt {
   background: radial-gradient(800px 500px at 25% 10%, rgba(99, 102, 241, 0.12), transparent 55%),
     rgba(17, 24, 39, 0.35);
