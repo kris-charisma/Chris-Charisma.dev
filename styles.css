@@ -826,7 +826,7 @@ button.btn.btn-ghost[data-email]:hover {
 }
 
 .tool-badge {
-  width: 32px;
+  width: 42px;
   height: 32px;
   border-radius: 12px;
   display: grid;
