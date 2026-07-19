@@ -1318,6 +1318,11 @@ textarea {
   color: rgba(229, 231, 235, 0.75);
 }
 
+.footer-sep {
+  margin: 0 6px;
+  opacity: 0.4;
+}
+
 .footer-links {
   display: flex;
   gap: 14px;

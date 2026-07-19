@@ -346,6 +346,7 @@ const I18N = {
 
     "fabTop.aria": "Scroll to top",
     "footer.copy": "©",
+    "footer.tagline": "Building websites &amp; software that creates impact.",
 
     "contact.waGreeting": "Hello Chris Charisma,",
     "contact.fieldName": "Name",
@@ -700,6 +701,7 @@ const I18N = {
 
     "fabTop.aria": "Remonter en haut",
     "footer.copy": "©",
+    "footer.tagline": "Cr\u00e9er des sites web &amp; logiciels qui ont de l\u2019impact.",
 
     "contact.waGreeting": "Bonjour Chris Charisma,",
     "contact.fieldName": "Nom",
